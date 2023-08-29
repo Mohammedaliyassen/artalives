@@ -150,9 +150,9 @@ import BtnUp from './BtnUp';
 
 function HomePage() {
   const [targetCounts, setTargetCounts] = useState({
-    count1: 250,
-    count2: 350,
-    count3: 180,
+    count1: 900,
+    count2: 953,
+    count3: 340,
   });
 
   const [counters, setCounters] = useState({
@@ -207,9 +207,9 @@ function HomePage() {
       <NavBar isSticky="yes" />
       <div className="homePage">
         <div className='dontStop position-absolute w-100 h-100 z-3 h-sm-50'></div>
-        <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel" data-bs-wrap='true' data-bs-pause='false'>
           <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="10000">
+            <div className="carousel-item active" data-bs-interval="10000" >
               <video src={video1} autoPlay loop muted style={{ width: "100%", height: "100%", objectFit: "cover" }}></video>
             </div>
             <div className="carousel-item " data-bs-interval="10000">
@@ -228,7 +228,7 @@ function HomePage() {
           </div>
           <div className="widget-item" data-widget="count3">
             <h2 data-count={targetCounts.count3}>{counters.count3}</h2>
-            <p>مكافأت فزنا بها</p>
+            <p> عميل مكرر </p>
           </div>
         </div>
       </div>

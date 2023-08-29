@@ -282,7 +282,7 @@ function Service() {
           </div>
           <div id="carouselMobile" className="carousel slide carouselMobile col-lg-4 col-md-6 col-sm-12" data-bs-ride="carousel" data-bs-interval='3000'>
             <Link to={"/Portfolio"} >
-              <h1>Social</h1>
+              <h1>   تصميم تطبيقات موبايل    </h1>
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img src={visual1} className="d-block w-100" alt="..." />
@@ -338,7 +338,7 @@ function Service() {
           </div>
           <div id="carouselSocial" className="carousel slide carouselSocial col-lg-4 col-md-6 col-sm-12" data-bs-ride="carousel" interval='3000'>
             <Link to={"/Portfolio"} >
-              <h1>تصميم بوستات</h1>
+              <h1>  تصميم بوستات سوشيال ميديا </h1>
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <img src={social1} className="d-block w-100" alt="..." />
