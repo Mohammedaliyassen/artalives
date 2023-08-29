@@ -33,7 +33,7 @@ function Contact() {
         <div className="social">
            <div className="heading">
                <a href="https://www.facebook.com/profile.php?id=100090830918586&mibextid=ZbWKwL"> تابعنا على الفيسبوك </a>
-               <a href="https://www.instagram.com/artalive443/?next=%2F"> تابعنا على الانستجرام </a>
+               <a href="https://www.instagram.com/artalives/"> تابعنا على الانستجرام </a>
            </div>
            <div className="icons">
          
@@ -51,8 +51,8 @@ function Contact() {
         </div>
         <div className="contact-methods">
           <div className="heading">
-              <a href="">01103789762 : الهاتف </a>
-              <a href="">  Artalives@gmail : البريد الالكتروني </a>
+              <a href="https://wa.me/+201103789762">01103789762 : الهاتف </a>
+              <a href="Artalives443@gmail.com">  Artalives@gmail : البريد الالكتروني </a>
 
           </div>
           <div className="icons">
