@@ -29,7 +29,7 @@
     padding: 15px;
   }
   footer{
-    width: 40vw;
+    width: auto;
   }
   @media(max-width:926px){
     footer{

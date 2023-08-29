@@ -206,12 +206,12 @@ function Service() {
             }}>
               <h1>تصميم شعار</h1>
               <div className="carousel-inner">
-                <div className="carousel-item active">
+                <div className="carousel-item active" >
                   <img src={logo1} className="d-block w-100" alt="..." />
                 </div>
                 {logo.map((e) => {
                   return (<>
-                    <div className="carousel-item ">
+                    <div className="carousel-item " key={visual[e]}>
                       <img src={e} className="d-block w-100" alt="..." />
                     </div>
                   </>
@@ -237,7 +237,7 @@ function Service() {
                 </div>
                 {visual.map((e) => {
                   return (<>
-                    <div className="carousel-item ">
+                    <div className="carousel-item " key={e}>
                       <img src={e} className="d-block w-100" alt="..." />
                     </div>
                   </>
@@ -263,7 +263,7 @@ function Service() {
                 </div>
                 {Web.map((e) => {
                   return (<>
-                    <div className="carousel-item ">
+                    <div className="carousel-item " key={e}>
                       <img src={e} className="d-block w-100" alt="..." />
                     </div>
                   </>
@@ -289,7 +289,7 @@ function Service() {
                 </div>
                 {visual.map((e) => {
                   return (<>
-                    <div className="carousel-item ">
+                    <div className="carousel-item " key={e}>
                       <img src={e} className="d-block w-100" alt="..." />
                     </div>
                   </>
@@ -317,7 +317,7 @@ function Service() {
                 </div>
                 {motion.map((e) => {
                   return (<>
-                    <div className="carousel-item ">
+                    <div className="carousel-item " key={e}>
                       <video src={e} className="d-block w-100" muted autoPlay loop  >
                         Your Browser old version please update it
                       </video>
@@ -345,7 +345,7 @@ function Service() {
                 </div>
                 {social.map((e) => {
                   return (<>
-                    <div className="carousel-item ">
+                    <div className="carousel-item " key={e}>
                       <img src={e} className="d-block w-100" alt="..." />
                     </div>
                   </>

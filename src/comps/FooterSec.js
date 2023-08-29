@@ -10,10 +10,10 @@ function Footer(){
                 </div>
                 <div className="col-sm-6 text-end">
                     <div className="socials">
-                        <a className="social-item ms-3" href="https://www.facebook.com/profile.php?id=100090830918586">FaceBook</a>
-                        <a className="social-item ms-3" href="Artalives443@gmail.com">Gemil</a>
-                        <a className="social-item ms-3" href="https://www.instagram.com/artalives/">instagram</a>
-                        <a className="social-item ms-3" href="https://wa.me/+201103789762">WhatsApp</a>
+                        <a className="social-item ms-3" href="https://www.facebook.com/profile.php?id=100090830918586" target="_blank">FaceBook</a>
+                        <a className="social-item ms-3" href="mailto:Artalives443@gmail.com" target="_blank">Gmail</a>
+                        <a className="social-item ms-3" href="https://www.instagram.com/artalives/" target="_blank">instagram</a>
+                        <a className="social-item ms-3" href="https://wa.me/+201103789762" target="_blank">WhatsApp</a>
                     </div>
                 </div>
             </div>
