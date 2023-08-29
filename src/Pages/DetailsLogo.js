@@ -6,12 +6,12 @@
 // function Details() {
 //   let pId = useParams();
 //   console.log("pid", pId.pId);
-//   // http://154.56.56.115/api/visual-identities/1?populate=*
+//   // https://154.56.56.115/api/visual-identities/1?populate=*
 
 //   const [details, setDetails] = useState([]);
 
 //   useEffect(() => {
-//     fetch(`http://154.56.56.115/api/visual-identities/${pId.pId}?populate=*`)
+//     fetch(`https://154.56.56.115/api/visual-identities/${pId.pId}?populate=*`)
 //       .then((res) => res.json())
 //       .then((ourData) => setDetails(ourData.data.attributes));
 //   }, []);
@@ -29,7 +29,7 @@
               
 //                 details.descriptionPhotos.data.map((photo, index) => (
 //                 <div className="logo-card" key={index}>
-//                   {/* <img src={`http://154.56.56.115${photo.attributes.url}`} /> */}
+//                   {/* <img src={`https://154.56.56.115${photo.attributes.url}`} /> */}
 //                   {console.log("attributes", photo.attributes.url)}
 //                 </div>
 //               ))
@@ -61,7 +61,7 @@ import Loading from "../comps/Loading";
 function DetailsLogo() {
   let pId = useParams();
   console.log("pid", pId.pId);
-  // http://154.56.56.115/api/visual-identities/1?populate=*
+  // https://154.56.56.115/api/visual-identities/1?populate=*
 
   const[error,setErorr]=useState(false)
 if (error==false) {
@@ -81,7 +81,7 @@ else{
   });
 
   useEffect(() => {
-    fetch(`http://154.56.56.115/api/logo-designs/${pId.pId}?populate=*`)
+    fetch(`https://154.56.56.115/api/logo-designs/${pId.pId}?populate=*`)
       .then((res) => res.json())
       .then((ourData) => setDetails(ourData.data.attributes))
       .catch((erorr)=>setErorr(true))
@@ -98,7 +98,7 @@ console.log(details)
             {details.descriptionPhotos.data.length > 0 ? (
               details.descriptionPhotos.data.map((photo, index) => (
                 <div className="logo-card" key={index}>
-                  <img src={`http://154.56.56.115${photo.attributes.url}`} />
+                  <img src={`https://154.56.56.115${photo.attributes.url}`} />
                 </div>
               ))
             ) : (

@@ -45,7 +45,7 @@ const dispatch =useDispatch()
           ourData.map((photo, index) => (
             <div className="logo-card" key={index}>
               
-              <video src={`http://154.56.56.115${photo.attributes.video.data[0].attributes.url}`} autoPlay loop muted style={{  objectFit: "cover" }}></video>
+              <video src={`https://154.56.56.115${photo.attributes.video.data[0].attributes.url}`} autoPlay loop muted style={{  objectFit: "cover" }}></video>
               <h3 className="mb-4">{photo.attributes.title}</h3>
             
             </div>

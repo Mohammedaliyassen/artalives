@@ -48,7 +48,7 @@ const SocialMedia = ({showHeading,showTitle}) => {
             <div className="logo-card" key={index}>
            
               <img
-                src={`http://154.56.56.115${photo.attributes.frontPhoto.data.attributes.url}`}
+                src={`https://154.56.56.115${photo.attributes.frontPhoto.data.attributes.url}`}
                 alt=""
               />
                {showTitle==="true" ?   <h3>{photo.attributes.title}</h3>  : <></>} 

@@ -4,7 +4,7 @@ import img2 from '../designs/imgs/avatar-2.jpg'
 import img3 from '../designs/imgs/avatar-3.jpg'
 function Testimonials() {
     // useEffect(() => {
-    //     fetch("http://154.56.56.115/api/client-opnions?populate=*")
+    //     fetch("https://154.56.56.115/api/client-opnions?populate=*")
     //       .then((res) => res.json())
     //       .then((data) => {
     //         setOpinions(data.data)

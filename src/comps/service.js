@@ -18,7 +18,7 @@
 //   };
 
 //   useEffect(() => {
-//     fetch("http://154.56.56.115/api/logo-designs?populate=*")
+//     fetch("https://154.56.56.115/api/logo-designs?populate=*")
 //       .then((res) => res.json())
 //       .then((data) => {
 //         setLogo(data.data);
@@ -26,7 +26,7 @@
 //   }, []);
 
 //   useEffect(() => {
-//     fetch("http://154.56.56.115/api/animations?populate=*")
+//     fetch("https://154.56.56.115/api/animations?populate=*")
 //       .then((res) => res.json())
 //       .then((data) => {
 //         setMotian(data.data);
@@ -34,7 +34,7 @@
 //   }, []);
 
 //   useEffect(() => {
-//     fetch("http://154.56.56.115/api/visual-identities?populate=*")
+//     fetch("https://154.56.56.115/api/visual-identities?populate=*")
 //       .then((res) => res.json())
 //       .then((data) => {
 //         setVisual(data.data);
@@ -42,7 +42,7 @@
 //   }, []);
 
 //   useEffect(() => {
-//     fetch("http://154.56.56.115/api/social-medias?populate=*")
+//     fetch("https://154.56.56.115/api/social-medias?populate=*")
 //       .then((res) => res.json())
 //       .then((data) => {
 //         setSocial(data.data);
