@@ -9,7 +9,7 @@ function AboutUs() {
     <>
       <NavBar isSticky="no" />
       <BtnUp />
-      <h1>HHHHHHHHHHHHHHHHHHHHH</h1>
+      
         <div className="overlay">
          <h6>تعرف المزيد عنا</h6>
          <h3>  Artlives حول</h3>
