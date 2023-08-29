@@ -15,7 +15,7 @@
 //   const [opinions, setOpinions] = useState([]);
 
 //   // useEffect(() => {
-//   //   fetch("https://154.56.56.115/api/home-page-videos?populate=*")
+//   //   fetch("http://154.56.56.115/api/home-page-videos?populate=*")
 //   //     .then((res) => res.json())
 //   //     .then((data) => {
 //   //       setMotian(data.data)
@@ -25,7 +25,7 @@
 //   // }, []);
 //   // console.log("motion is",motian)
 //   // useEffect(() => {
-//   //   fetch("https://154.56.56.115/api/client-opnions?populate=*")
+//   //   fetch("http://154.56.56.115/api/client-opnions?populate=*")
 //   //     .then((res) => res.json())
 //   //     .then((data) => {
 //   //       // setOpinions(data)
@@ -108,7 +108,7 @@
 //             {/* {motian.map((video, index) => {
 //               return (
 //                 <div className="carousel-item " data-bs-interval="7000" key={index}>
-//                   <video src={`https://154.56.56.115${video.attributes.video.data.attributes.url}`} autoPlay loop muted style={{ width: "100%", height: "100%", objectFit: "cover" }}></video>
+//                   <video src={`http://154.56.56.115${video.attributes.video.data.attributes.url}`} autoPlay loop muted style={{ width: "100%", height: "100%", objectFit: "cover" }}></video>
 //                 </div>
 //               )
 //             })} */}

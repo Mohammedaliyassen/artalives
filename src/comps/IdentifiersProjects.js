@@ -52,7 +52,7 @@ else{
           ourData.map((photo, index) => (
             <div className="logo-card" key={index}>
            
-               <img src={`https://154.56.56.115${photo.attributes.frontPhoto.data.attributes.formats.thumbnail.url}`} alt=""/>
+               <img src={`http://154.56.56.115${photo.attributes.frontPhoto.data.attributes.formats.thumbnail.url}`} alt=""/>
                {showTitle==="true" ?   <h3>{photo.attributes.title}</h3>  : <></>}  
               {showDetalisBtn==="true" ?       <Link className=" btn btn-primary mt-4" to={`/detailsIdintefiers/${photo.id}`} >عرض التفاصيل</Link>      : <></>}        
               

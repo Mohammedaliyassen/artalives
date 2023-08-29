@@ -62,7 +62,7 @@ const LogoProjects = ({ showDetalisBtn, showHeading, showTitle }) => {
               key={index}
             >
               <img
-                src={`https://154.56.56.115${photo.attributes.frontPhoto.data.attributes.formats.thumbnail.url}`}
+                src={`http://154.56.56.115${photo.attributes.frontPhoto.data.attributes.formats.thumbnail.url}`}
                 alt=""
               />
               {showTitle === "true" ? <h3>{photo.attributes.title}</h3> : <></>}
