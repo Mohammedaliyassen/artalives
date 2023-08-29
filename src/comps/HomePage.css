@@ -1,0 +1,96 @@
+:root{
+    --firsB:#0000de;
+    --secondB:#ec643b;
+  }
+
+.homePage .widget{
+    position: relative;
+    max-width: 650px;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    border: 1px solid #dee2e6;
+    padding: 20px 0;
+    margin-top: -50px;
+    z-index: 999;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(173, 181, 189, 0.4);
+    justify-content: center;
+}
+.homePage .widget .widget-item{
+    text-align: center;
+    border-left: 1px solid #0000de;
+    padding: 0 30px;
+    height: 10vh;
+}
+.homePage .widget .widget-item:first-child{
+    text-align: center;
+    border-left:none ;
+}
+#control .carousel-control-prev-icon{
+    visibility: hidden;
+}
+#control:hover .carousel-control-prev-icon{
+    visibility: visible;
+}
+#control .carousel-control-next-icon{
+    visibility: hidden;
+}
+#control:hover .carousel-control-next-icon{
+    visibility: visible;
+}
+.dontStop{
+    transform: translateX(0vw);
+}
+
+@media (max-width:750px) {
+    .dontStop{
+        height: 50% !important;
+    }
+    .homePage .widget {
+        text-align: center;
+        padding-top: 10px;
+    }
+    .homePage .widget .widget-item p{
+       font-size: 1rem;
+       margin: 0;
+       color:#0000de ;
+    }
+    .homePage .widget .widget-item h2{
+        color: black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+     }
+}
+@media (max-width:450px) {
+    .dontStop{
+        height: 50% !important;
+    }
+    .homePage .widget {
+        text-align: center;
+        /* padding-top: 10px; */
+        padding: 10px 0;
+    }
+    .homePage .widget .widget-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .homePage .widget .widget-item h2{
+        color: black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+     }
+    .homePage .widget .widget-item p{
+       font-size: .75rem;
+       margin: 0;
+       color:#0000de ;
+    }
+}
+

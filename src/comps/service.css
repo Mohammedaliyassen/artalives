@@ -1,0 +1,143 @@
+/* #serviceTitle{
+    color: #0000de;
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+.card-body img{
+    width: 100%;
+    display: inline-block;
+}
+
+.card-body h3{
+    color: #0000de;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.card-body p{
+    text-align: right;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .LogoProjects,
+  .IdentifiersProjects,
+  .SocialMedia {
+    margin: 0 20px;
+    transition: transform 0.3s;
+  }
+  
+
+  .LogoProjects:hover,
+  .IdentifiersProjects:hover,
+  .SocialMedia:hover {
+    transform: rotateY(180deg);
+  }
+  .slick-slide , .videoCar, .videoCar video{
+    width: 300px;
+    height: 169px;
+    margin: auto;
+    border-radius: 5px;
+  }
+  
+  .project-card-mobile a {
+    color: #000;
+    text-decoration: none;
+  }
+  .sliders-projects{
+    display: flex;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+  @media (max-width:1050px) {
+    .sliders-projects {
+        display: flex;
+        grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+@media (max-width:500px) {
+}
+button.slick-arrow.slick-prev {
+  display: block;
+  margin-top: 16vh;
+  margin-left: 140px;
+}
+button.slick-arrow.slick-next {
+  display: block;
+  margin-top: 16vh;
+  margin-right: 140px;
+} */
+
+
+
+.carousel-control-prev{
+  height: 70%;
+  color: black;
+  transform: translateY(25%);
+  margin: 10px;
+}
+.carousel-control-next{
+  height: 70%;
+  color: black;
+  transform: translateY(25%);
+  margin: 10px;
+}
+.carouselLogo,
+.carouselVisual,
+.carouselSocial,
+.carouselWeb,
+.carouselMobile,
+.carouselMotion {
+  margin-top: 100px;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.carouselLogo a,
+.carouselVisual a,
+.carouselSocial a,
+.carouselWeb a,
+.carouselMobile a,
+.carouselMotion a {
+  text-decoration: none;
+  color: black;
+  transition: .1s;
+}
+.carouselLogo:hover a,
+.carouselVisual:hover a ,
+.carouselSocial:hover a ,
+.carouselWeb:hover a ,
+.carouselMobile:hover a ,
+.carouselMotion:hover a  {
+  text-decoration:overline;
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

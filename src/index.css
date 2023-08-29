@@ -1,0 +1,35 @@
+*{
+  font-family: 'Cairo', Fallback, sans-serif;
+  font-weight:lighter;
+}
+:root{
+  --firsB:#0000de;
+  --secondB:#ec643b;
+}
+p , h1 {
+  font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1200 - 320)));
+  margin-bottom: 12px;
+  letter-spacing: .6px;
+}
+body {
+  margin: 0;
+  
+  /* height: 5000px; */
+}
+@font-face {
+  font-family: 'Cairo';
+  src: url(./designs/static/Cairo-Light.ttf),
+       url(./designs/static/Cairo-Medium.ttf),
+       
+       url(./designs/static/Cairo-Bold.ttf);
+}
+.imgContainer{
+  height: 250px;
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid #ddd;
+}
+.card-body{
+  max-height: 50vh;
+
+}

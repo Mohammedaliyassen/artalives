@@ -1,0 +1,21 @@
+.detaImg{
+    margin: 0 auto;
+}
+.cards-logo{
+    display: block;
+    text-align: center;
+}
+.text-center {
+    text-align: center!important;
+    direction: rtl;
+}
+@media (max-width:450px){
+
+.detaImg{
+    margin-left: 25px;
+}
+.cards-logo{
+    display: block;
+}
+
+}

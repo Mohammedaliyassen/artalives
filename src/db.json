@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "title": "test product",
+      "price": 13.5,
+      "description": "lorem ipsum set",
+      "image": "https://i.pravatar.cc",
+      "category": "electronic",
+      "id": 11
+    },
+    {
+      "title": "test productasdasasd",
+      "price": "14",
+      "category": "electronics",
+      "description": "",
+      "img": "https://i.pravatar.cc ",
+      "id": 12
+    },
+    {
+      "title": "",
+      "price": "0",
+      "category": "",
+      "description": "",
+      "img": "C:\\fakepath\\Black and Gold Elegant Company Business Card Landscape.png",
+      "id": 24
+    },
+    {
+      "title": "",
+      "price": "0",
+      "category": "",
+      "description": "",
+      "img": "C:\\fakepath\\Black and Beige Modern Product Instagram Post.png",
+      "id": 25
+    },
+    {
+      "title": "",
+      "price": "0",
+      "category": "",
+      "description": "",
+      "img": "C:\\fakepath\\Black and Gold Elegant Company Business Card Landscape1.png",
+      "id": 26
+    },
+    {
+      "title": "test product22021",
+      "price": "1000",
+      "category": "electronics",
+      "description": "lorem ipsum set128548545848548458",
+      "img": "https://i.pravatar.cc",
+      "id": 27
+    },
+    {
+      "title": "",
+      "price": "13",
+      "category": "",
+      "description": "",
+      "img": "",
+      "id": 28
+    },
+    {
+      "title": "test product22",
+      "price": "112",
+      "category": "jawlery",
+      "description": "123.21",
+      "img": "121",
+      "id": 29
+    }
+  ]
+}

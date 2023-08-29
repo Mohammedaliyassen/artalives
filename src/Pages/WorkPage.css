@@ -1,0 +1,25 @@
+
+.holder img{
+    width: 100%;
+    padding: 0px;
+    /* margin-bottom: 50px; */
+}
+.holder {
+    margin-bottom: 50px;
+}
+.holder .custom-card{
+    margin-bottom: 20px;
+}
+#mainNavBar {
+
+    position: static;
+
+}
+.nav-item a {
+    padding-right: 50px;
+    
+}
+.cards-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+}

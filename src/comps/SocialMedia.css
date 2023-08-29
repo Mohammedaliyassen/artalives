@@ -1,0 +1,32 @@
+.logo-list {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: 50% 50% ;
+    margin-top: 40px;
+  }
+  
+  .logo-card {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ec643b4a;
+  }
+  .logo-card h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+font-size: 27px;
+      
+      }
+  .logo-card img{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    padding: 10px;
+ 
+    
+  }
+  
+ 

@@ -1,0 +1,104 @@
+
+.navbar-toggler{
+    width: 60px;
+    margin: 5px;
+    text-align: center;
+}
+.container  {
+    max-width: 100%;
+}
+.navbar div ul li a:hover {
+    background-color: #ec643b;
+    font-weight: bold;
+   color: white;
+    border-radius: 10px;
+
+}
+.active{
+    background-color: #ec643b;
+    font-weight: bold;
+   color: white !important;
+    border-radius: 10px;
+}
+.navbar div ul li {
+margin-right: 15px;
+color: white;
+
+}
+.navbar div ul li:hover a{
+    text-align: center;
+    color: white;
+}
+.navbar div ul li a{
+    color: #fff;
+    font-weight: bold;
+}
+.navbar div #LogoImg{
+    width: 15vw;
+}
+
+
+#bur{
+    color: #ec643b;
+}
+
+@media (max-width:990px) {
+    .navbar div #LogoImg{
+        width: 15vw;
+    }
+    .navbar-collapse{
+        background-color: #ec643b;
+        border-radius: 20px 0 20px 20px ;
+        z-index: 9999;
+    }
+    .navbar-collapse{
+       transform: translateX(-20px);
+    }
+    .navbar div ul li {
+        margin-right: 15px;
+        color: white;
+        margin: 0 auto;
+        margin-right: 50%;
+        text-align: end;
+        }
+}
+@media (max-width:550px) {
+    .navbar div #LogoImg{
+        width: 30vw;
+    }
+    
+}
+
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 92px;
+    filter: blur(-3px);
+    background-color: #060405e0 !important;
+    width: 100%;
+    border-top: 1px solid #ec643b;
+    z-index: 1000;
+    border-bottom: 1px solid #ec643b;
+  }
+.static-navbar {
+    position: static;
+    height: 92px;
+    filter: blur(-3px);
+    background-color: #060405e0 !important;
+    width: 100%;
+    border-top: 1px solid #ec643b;
+    z-index: 1000;
+    border-bottom: 1px solid #ec643b;
+  }
+  .navbar div ul li {
+    margin-right: 15px;
+    color: white;
+    width: 145px;
+    font-size: 19px;
+    white-space: nowrap;
+    text-align: center;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    margin-left: 10px;
+}

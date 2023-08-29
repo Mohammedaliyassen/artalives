@@ -1,0 +1,114 @@
+:root{
+    --firsB:#0000de;
+    --secondB:#ec643b;
+  }
+.sidebar {
+  display: grid;
+  grid-template-columns: 17% 83%;
+  align-items: flex-start;
+   
+  }
+  .sidebar .btns{
+    background-color: #242323;
+    padding: 17px;
+    min-height: 1000px;
+    border: 1px solid #ec643b;
+    border-top: 1px solid #242323;
+    transform: translateY(-1px);
+    padding-top: 30%;
+    z-index: 999;
+  }
+  .sidebar .content{
+    text-align: center;
+  }
+  button {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 8px 1px;
+    margin-bottom: 46px;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    border: 1px solid var(--secondB);
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px
+  }
+  button:hover{
+    background-color: var(--secondB);
+    color: white
+  }
+  
+  button.active {
+    background-color: var(--secondB);
+  }
+  
+  .content {
+    margin-left: 20px;
+  }
+  .h3-work{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .sideBarDrag{
+    display: none;
+  }
+  
+  @media(max-width:990px){
+    .sidebar .btns {
+      background-color: #242323af;
+      position: sticky;
+      top: 0;
+      width: 80vw;
+      transition: .5s;
+      }
+      .sidebar .moveRight{
+        transform: translateX(0);
+      }
+      .sidebar .moveLeft{
+        transform: translateX(-80vw);
+      }
+      .sidebar .btns .rotateDrager{
+        transform: rotate(180deg);
+        transition: .5s;
+      }
+      .sideBarDragSvg{
+        transition: .5s;
+      }
+      button:hover{
+        background: transparent;
+        color: white
+        
+      }
+      .sideBarDrag{
+        background: transparent;
+        transform: translateX(80vw);
+        width: 50px;
+        height: 50px;
+        padding: 0px;
+        margin: 0;
+        position: absolute;
+        left: -1vw;
+        top: 70vh;
+        display: inherit;
+        border: none;
+        top: 50vh;
+      }
+      .sideBarDrag svg{
+        width: 7vw;
+        height: 15vh;
+      }
+  }
+
+  @media(max-width:550px){
+      .sideBarDrag svg{
+        width: 14vw;
+        height: 15vh;
+      }
+      .content{
+        margin: 0;
+        transform: translateX(-8vw);
+      }
+  }

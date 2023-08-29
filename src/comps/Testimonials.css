@@ -1,0 +1,21 @@
+#aboutHead h6{
+    color: #0000de;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.testmonial-card img {
+    width: 80px !important;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 10px rgba(206, 212, 218, 0.3);
+    margin-bottom: 30px;
+    vertical-align: middle;
+    border-style: none;
+}
+.testmonial-card {
+    border: none;
+}
+
+
+
+  

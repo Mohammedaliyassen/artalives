@@ -1,0 +1,70 @@
+:root{
+    --firsB:#0000de;
+    --secondB:#ec643b;
+  }
+
+.socials a{
+    text-decoration: none;
+    padding: 9px;
+    border: 1px solid var(--secondB);
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+    transition: 0.5s; margin: 5px 0;
+}
+.socials a:hover{
+    background-color: var(--secondB);
+    border: none;
+    color: white;
+}
+.copy{
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-top: 12px;
+  white-space: nowrap;
+  }
+  .copy a{
+    text-decoration: none;
+    color: var(--secondB);
+    padding: 15px;
+  }
+  footer{
+    width: 40vw;
+  }
+  @media(max-width:926px){
+    footer{
+      width: 100vw;
+      
+    }
+    .socials{
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 50%;
+      text-align: center;
+    }
+  }
+  @media(max-width:580px){
+  footer{
+    width: 100vw;
+  }
+  .socials{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+  }
+}
+  @media(max-width:360px){
+  footer{
+    width: 100vw;
+  }
+  .socials{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+}
