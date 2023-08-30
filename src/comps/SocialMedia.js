@@ -22,7 +22,7 @@ const SocialMedia = ({showHeading,showTitle}) => {
 
   const selector = useSelector((state) => state.social);
   const ourData = selector.data;
-  console.log(ourData)
+
 
   if (error) {
     

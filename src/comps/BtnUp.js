@@ -26,7 +26,7 @@ class BtnUp extends Component {
       left: 0,
       behavior: "smooth",
     });
-    console.log("clicked");
+    
   };
 
   render() {

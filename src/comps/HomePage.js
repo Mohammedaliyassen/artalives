@@ -19,17 +19,17 @@
 //   //     .then((res) => res.json())
 //   //     .then((data) => {
 //   //       setMotian(data.data)
-//   //       console.log(data.data);
+
 //   //     })
        
 //   // }, []);
-//   // console.log("motion is",motian)
+
 //   // useEffect(() => {
 //   //   fetch("https://api.artalives.com/api/client-opnions?populate=*")
 //   //     .then((res) => res.json())
 //   //     .then((data) => {
 //   //       // setOpinions(data)
-//   //       console.log("opinions is ",data);
+
 //   //     })
        
 //   // }, []);

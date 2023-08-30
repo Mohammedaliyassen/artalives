@@ -21,7 +21,7 @@ const LogoProjects = ({ showDetalisBtn, showHeading, showTitle }) => {
 
   const selector = useSelector((state) => state.logo);
   const ourData = selector.data;
-        console.log(ourData)
+
   if (error) {
     document.body.innerHTML = "";
     document.body.style.backgroundColor = "blue";

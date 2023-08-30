@@ -10,11 +10,11 @@ function Testimonials() {
             .then((res) => res.json())
             .then((data) => {
                 setOpinions(data.data)
-                console.log("opinions is ", data.data);
+
             })
 
     }, []);
-    console.log(opinions)
+
     return (
         <>
             <div className="container mt-5">

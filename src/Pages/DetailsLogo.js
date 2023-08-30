@@ -60,7 +60,7 @@ import Loading from "../comps/Loading";
 
 function DetailsLogo() {
   let pId = useParams();
-  console.log("pid", pId.pId);
+
   // https://api.artalives.com/api/visual-identities/1?populate=*
 
   const [error, setErorr] = useState(false)
@@ -86,7 +86,7 @@ function DetailsLogo() {
       .then((ourData) => setDetails(ourData.data.attributes))
       .catch((erorr) => setErorr(true))
   }, [pId.pId]);
-  console.log(details)
+ 
   return (
     <>
       <NavBar isSticky="no" />

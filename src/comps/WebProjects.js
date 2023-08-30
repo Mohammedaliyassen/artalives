@@ -34,7 +34,7 @@ const WebProjects = () => {
   if (isLoading) {
     return <Loading />;
   }
-  console.log(ourData[0].attributes.screenshots.data[0].attributes.url)
+ 
 
 
   return (

@@ -30,7 +30,7 @@ let browserTest = ua.match(/(\w+)\/(\d+\.\d+(?:\.\d+)?(?:\.\d+)?)/g),
     browserResult = browserTest.length && browserTest[browserTest.length - 1 - browserOffset].split("/"),
     browser = browserResult && browserResult[0],
     version = browserResult && browserResult[1];
-    console.log('https://wa.me/+201103789762?text='+content);
+
 if(os=="android"||os=="ipad"||os=="iphone"){window.open('https://wa.me/+201103789762?text='+content, "_blank");}
 else{window.open('https://wa.me/+201103789762?text='+content, "_blank");}
 })();

@@ -32,7 +32,7 @@ const MotionGrafic = () => {
   if (isLoading) {
     return <Loading />;
   }
-  console.log("url", ourData);
+
   return (
     <>
       <div className='content-btn'>

@@ -33,7 +33,7 @@ const MobileProjects = () => {
       });
   }, [dispatch]);
 
-  
+
 
 
   const selector = useSelector((state) => state.mobile);
@@ -49,7 +49,7 @@ const MobileProjects = () => {
   if (isLoading) {
     return <Loading />;
   }
-  console.log(ourData)
+
 
 
   return (

@@ -60,7 +60,7 @@ import Loading from "../comps/Loading";
 
 function DetailsIdientfiers() {
   let pId = useParams();
-  console.log("pid", pId.pId);
+
   // https://api.artalives.com/api/visual-identities/1?populate=*
 
   const[error,setErorr]=useState(false)
@@ -86,7 +86,7 @@ else{
       .then((ourData) => setDetails(ourData.data.attributes))
       .catch((erorr)=>setErorr(true))
   }, [pId.pId]); 
- console.log(details)
+
   return (
     <>
       <NavBar isSticky="no" />
@@ -99,7 +99,7 @@ else{
               details.descriptionPhotos.data.map((photo, index) => (
                 <div className="logo-card" key={index}>
                   <img src={`https://api.artalives.com${photo.attributes.url}`} />
-                  {console.log("attributes", photo.attributes.url)}
+
                 </div>
               ))
             ) : (
