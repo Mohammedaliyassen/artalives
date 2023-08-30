@@ -135,6 +135,16 @@ button.slick-arrow.slick-next {
   color: blue;
 }
 
+.carouselLogo a h1,
+.carouselVisual a h1,
+.carouselSocial a h1,
+.carouselWeb a h1,
+.carouselMobile a h1,
+.carouselMotion a h1{
+  font-size: 30px;
+  
+}
+
 
 
 
