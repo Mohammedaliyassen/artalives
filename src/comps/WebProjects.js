@@ -1,66 +1,64 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './WebProjects.css';
-
-const projects = [
-  {
-    id: 1,
-    title: 'مشروع 1',
-    link: '/project1',
-  },
-  {
-    id: 2,
-    title: 'مشروع 2',
-    link: '/project2',
-  },
-  {
-    id: 3,
-    title: 'مشروع 3',
-    link: '/project3',
-  },
-  {
-    id: 4,
-    title: 'مشروع 4',
-    link: '/project4',
-  },
-  {
-    id: 5,
-    title: 'مشروع 5',
-    link: '/project5',
-  },
-  {
-    id: 6,
-    title: 'مشروع 6',
-    link: '/project6',
-  },
-  {
-    id: 7,
-    title: 'مشروع 7',
-    link: '/project7',
-  },
-  {
-    id: 8,
-    title: 'مشروع 8',
-    link: '/project8',
-  },
-  
-];
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getDataWeb } from "../redux/slices/webData";
+import Loading from './Loading';
 
 const WebProjects = () => {
+  const [isLoading, setLoading] = useState(true);
+
+  const [error, setError] = useState(false);
+  const dispatch = useDispatch()
+  useEffect(() => {
+    dispatch(getDataWeb())
+      .then(() => setLoading(false))
+      .catch((error) => {
+
+        setLoading(true);
+      });
+  }, [dispatch]);
+
+
+  const selector = useSelector((state) => state.web);
+  const ourData = selector.data;
+
+
+  if (error) {
+    document.body.innerHTML = "";
+    document.body.style.backgroundColor = "blue";
+    return null;
+  }
+
+  if (isLoading) {
+    return <Loading />;
+  }
+  console.log(ourData[0].attributes.screenshots.data[0].attributes.url)
+
+
   return (
     <>
-    <div className='content-btn'>
-       <button style={{backgroundColor:"#3498db" , width: "152px" , border:"none"}}><a   style={{color:"white" }}  href='https://brief.artalives.com'>اطلب الان</a> </button>   
-       <h3 className='h3-projects'> مواقع ويب و متاجر الكترونية </h3>
-    </div> 
-    <div className="projects-list">
-      {projects.map((project) => (
-        <div className="project-card" key={project.id}>
-          <h3>{project.title}</h3>
-          <Link to={project.link} className='web'>عرض المشروع</Link>
-        </div>
-      ))}
-    </div>
+      <div className='content-btn'>
+        <button style={{ backgroundColor: "#3498db", width: "152px", border: "none" }}><a style={{ color: "white" }} href='https://brief.artalives.com'>اطلب الان</a> </button>
+        <h3 className='h3-projects'> مواقع ويب و متاجر الكترونية </h3>
+      </div>
+      <div className="projects-list">
+
+
+        {ourData.length > 0 ? (
+          ourData.map((project) =>  (
+            
+            <div className="project-card" key={project.id}>
+              <h3>{project.attributes.title}</h3>
+              
+              <img src={`https://api.artalives.com${project.attributes.screenshots.data[0].attributes.url}` }
+               alt={project.attributes.title} className='webImg'/> 
+              <Link to={project.attributes.url} className='web' target='_blank'>عرض المشروع</Link>
+            </div>
+          ))) :
+          <p> لا توجد بيانات لعرضها  </p>}
+      </div>
     </>
   );
 };

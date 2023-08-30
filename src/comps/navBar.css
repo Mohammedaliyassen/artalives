@@ -3,6 +3,7 @@
     width: 60px;
     margin: 5px;
     text-align: center;
+    border: 5px solid #fff;
 }
 .container  {
     max-width: 100%;

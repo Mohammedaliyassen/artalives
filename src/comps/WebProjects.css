@@ -7,8 +7,8 @@
   }
   
   .project-card {
+    direction: rtl;
     margin: 20px;
-    height: 160px;
     padding: 20px;
     background-color: #f1f1f1;
     border-radius: 10px;
@@ -36,10 +36,15 @@
   .project-card a:hover {
     background-color: #2980b9;
   }
+  .project-card .webImg{
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
   h3.h3-projects {
     margin-top: 80px;
     color: #3498db;
     font-size: 35px;
+    white-space: nowrap;
 }
 @media (max-width:660px){
   .projects-list {

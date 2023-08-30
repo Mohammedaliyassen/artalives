@@ -3,14 +3,12 @@ import "./LogoProjects.css";
 import { Link } from "react-router-dom";
 import Loading from "./Loading";
 import "animate.css";
-
-import { WOW } from "wowjs";
 import { useDispatch, useSelector } from "react-redux";
 import { getDataLogo } from "../redux/slices/LogoData";
 
 const LogoProjects = ({ showDetalisBtn, showHeading, showTitle }) => {
   const [isLoading, setLoading] = useState(true);
-  // const [ourData, setOurData] = useState([]);
+
   const [error, setError] = useState(false);
   const dispatch =useDispatch()
   useEffect(() => {
@@ -23,7 +21,7 @@ const LogoProjects = ({ showDetalisBtn, showHeading, showTitle }) => {
 
   const selector = useSelector((state) => state.logo);
   const ourData = selector.data;
-
+        console.log(ourData)
   if (error) {
     document.body.innerHTML = "";
     document.body.style.backgroundColor = "blue";
