@@ -50,7 +50,7 @@ const WebProjects = () => {
   return (
     <>
     <div className='content-btn'>
-       <button style={{backgroundColor:"#3498db" , width: "152px" , border:"none"}}><a   style={{color:"white" }}  href=''>اطلب الان</a> </button>   
+       <button style={{backgroundColor:"#3498db" , width: "152px" , border:"none"}}><a   style={{color:"white" }}  href='https://brief.artalives.com'>اطلب الان</a> </button>   
        <h3 className='h3-projects'> مواقع ويب و متاجر الكترونية </h3>
     </div> 
     <div className="projects-list">

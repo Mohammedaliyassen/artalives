@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 export const getDataAnimations=createAsyncThunk("animationSlice/getDataAnimations", async()=>{
-     const response= await fetch("http://154.56.56.115/api/animations?populate=*");
+     const response= await fetch("https://api.artalives.com/api/animations?populate=*&sort[0]=id:desc");
      const data =await response.json()
      return data
 })
@@ -18,3 +18,4 @@ const animationSlice =createSlice({
 })
 
 export default animationSlice.reducer
+

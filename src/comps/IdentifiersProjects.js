@@ -42,7 +42,7 @@ else{
       {showHeading==="true" ?
        
        <div className='content-btn'>
-       <a   style={{color:"white" ,width: "152px"}}  href='http://127.0.0.1:5500/#/'> <button style={{}}>  اطلب الان   </button>   </a>
+       <a   style={{color:"white" ,width: "152px"}}  href='https://brief.artalives.com'> <button style={{}}>  اطلب الان   </button>   </a>
        <h3 className='h3-projects'> هوايات بصرية</h3>
     </div>  : 
        <h3 className='h3-projects'>خدمة هويات بصريه</h3>} 
@@ -52,7 +52,7 @@ else{
           ourData.map((photo, index) => (
             <div className="logo-card" key={index}>
            
-               <img src={`http://154.56.56.115${photo.attributes.frontPhoto.data.attributes.formats.thumbnail.url}`} alt=""/>
+               <img src={`https://api.artalives.com${photo.attributes.frontPhoto.data.attributes.formats.thumbnail.url}`} alt=""/>
                {showTitle==="true" ?   <h3>{photo.attributes.title}</h3>  : <></>}  
               {showDetalisBtn==="true" ?       <Link className=" btn btn-primary mt-4" to={`/detailsIdintefiers/${photo.id}`} >عرض التفاصيل</Link>      : <></>}        
               

@@ -11,9 +11,9 @@ const projects = [
     title: 'مشروع 1',
     link: '/project1',
     images: [
-        'https://pentagram-production.imgix.net/8eea63bd-4f72-4ffb-8f35-61fc8d4fa559/AH_Axess_01.jpg?rect=286%2C0%2C5187%2C3240&w=360&fit=crop&crop=entropy&fm=jpg&q=70&auto=format&h=226',
-        'https://www.ramstarab.com/wp-content/uploads/2018/06/%D8%B5%D9%88%D8%B1-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A97-660x330.jpg',
-        'https://www.ramstarab.com/wp-content/uploads/2018/06/%D8%B5%D9%88%D8%B1-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A96.jpg',
+        'https://cdn.pixabay.com/photo/2021/07/10/15/45/online-shop-6401739_640.png',
+        'https://cdn.pixabay.com/photo/2019/04/26/07/14/store-4156934_1280.png',
+                'https://cdn.pixabay.com/photo/2021/07/10/14/31/online-shopping-6401553_640.png',
         
     ],
   },
@@ -22,9 +22,9 @@ const projects = [
     title: 'مشروع 2',
     link: '/project2',
     images: [
-        'https://www.ramstarab.com/wp-content/uploads/2018/06/%D8%B5%D9%88%D8%B1-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A910.jpg',
-        'https://pentagram-production.imgix.net/8eea63bd-4f72-4ffb-8f35-61fc8d4fa559/AH_Axess_01.jpg?rect=286%2C0%2C5187%2C3240&w=360&fit=crop&crop=entropy&fm=jpg&q=70&auto=format&h=226',
-        'https://www.ramstarab.com/wp-content/uploads/2018/06/%D8%B5%D9%88%D8%B1-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A97-660x330.jpg',
+         'https://cdn.pixabay.com/photo/2021/07/10/15/45/online-shop-6401739_640.png',
+        'https://cdn.pixabay.com/photo/2019/04/26/07/14/store-4156934_1280.png',
+                'https://cdn.pixabay.com/photo/2021/07/10/14/31/online-shopping-6401553_640.png',
     ],
   },
   {
@@ -32,9 +32,10 @@ const projects = [
     title: 'مشروع 3',
     link: '/project3',
     images: [
-        'https://www.ramstarab.com/wp-content/uploads/2018/06/%D8%B5%D9%88%D8%B1-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A97-660x330.jpg',
-        'https://www.ramstarab.com/wp-content/uploads/2018/06/%D8%B5%D9%88%D8%B1-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A910.jpg',
-        'https://pentagram-production.imgix.net/8eea63bd-4f72-4ffb-8f35-61fc8d4fa559/AH_Axess_01.jpg?rect=286%2C0%2C5187%2C3240&w=360&fit=crop&crop=entropy&fm=jpg&q=70&auto=format&h=226',
+    
+        'https://cdn.pixabay.com/photo/2020/08/03/10/00/credit-card-5459711_640.png',
+        'https://cdn.pixabay.com/photo/2018/05/16/22/21/shopping-3407232_960_720.jpg',
+        'https://cdn.pixabay.com/photo/2021/07/10/14/31/online-shopping-6401553_640.png',
         
     ],
   },
@@ -43,9 +44,9 @@ const projects = [
     title: 'مشروع 4',
     link: '/project4',
     images: [
-        'https://pentagram-production.imgix.net/8eea63bd-4f72-4ffb-8f35-61fc8d4fa559/AH_Axess_01.jpg?rect=286%2C0%2C5187%2C3240&w=360&fit=crop&crop=entropy&fm=jpg&q=70&auto=format&h=226',
-        'https://www.ramstarab.com/wp-content/uploads/2018/06/%D8%B5%D9%88%D8%B1-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A910.jpg',
-        'https://www.ramstarab.com/wp-content/uploads/2018/06/%D8%B5%D9%88%D8%B1-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A97-660x330.jpg',
+          'https://cdn.pixabay.com/photo/2020/08/03/10/00/credit-card-5459711_640.png',
+        'https://cdn.pixabay.com/photo/2018/05/16/22/21/shopping-3407232_960_720.jpg',
+        'https://cdn.pixabay.com/photo/2021/07/10/14/31/online-shopping-6401553_640.png'
     ],
   },
  
@@ -63,7 +64,7 @@ const MobileProjects = () => {
   return (
     <>
     <div className='content-btn'>
-    <button style={{backgroundColor:"rgb(52, 152, 219)" , border:"none" ,width: "152px"}}><a   style={{color:"white" }}  href='http://127.0.0.1:5500/#/'>اطلب الان</a> </button>     
+    <button style={{backgroundColor:"rgb(52, 152, 219)" , border:"none" ,width: "152px"}}><a   style={{color:"white" }}  href='https://brief.artalives.com'>اطلب الان</a> </button>     
        <h3 className='h3-projects'>تطبيقات موبايل</h3>
     </div> 
       

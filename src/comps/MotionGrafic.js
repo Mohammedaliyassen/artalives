@@ -37,7 +37,7 @@ const dispatch =useDispatch()
   return (
     <>
       <div className='content-btn'>
-       <button style={{backgroundColor:"rgb(52, 152, 219)" , border:"none" ,width: "152px"}}><a   style={{color:"white" }}  href='http://127.0.0.1:5500/#/'>اطلب الان</a> </button>   
+       <button style={{backgroundColor:"rgb(52, 152, 219)" , border:"none" ,width: "152px"}}><a   style={{color:"white" }}  href='https://brief.artalives.com'>اطلب الان</a> </button>   
        <h3 className='h3-projects'>موشن جرافيك  </h3>
     </div> 
       <div className="logo-list">
@@ -45,7 +45,7 @@ const dispatch =useDispatch()
           ourData.map((photo, index) => (
             <div className="logo-card" key={index}>
               
-              <video src={`http://154.56.56.115${photo.attributes.video.data[0].attributes.url}`} autoPlay loop muted style={{  objectFit: "cover" }}></video>
+              <video src={`https://api.artalives.com${photo.attributes.video.data[0].attributes.url}`} autoPlay loop muted style={{  objectFit: "cover" }}></video>
               <h3 className="mb-4">{photo.attributes.title}</h3>
             
             </div>

@@ -41,7 +41,7 @@ const LogoProjects = ({ showDetalisBtn, showHeading, showTitle }) => {
           <div className="content-btn">
             <a
               style={{ color: "white", width: "152px" }}
-              href="http://192.168.1.2:8000/brief.html"
+              href="https://brief.artalives.com"
             >
               {" "}
               <button style={{}}> اطلب الان </button>{" "}
@@ -62,7 +62,7 @@ const LogoProjects = ({ showDetalisBtn, showHeading, showTitle }) => {
               key={index}
             >
               <img
-                src={`http://154.56.56.115${photo.attributes.frontPhoto.data.attributes.formats.thumbnail.url}`}
+                src={`https://api.artalives.com${photo.attributes.frontPhoto.data.attributes.formats.thumbnail.url}`}
                 alt=""
               />
               {showTitle === "true" ? <h3>{photo.attributes.title}</h3> : <></>}

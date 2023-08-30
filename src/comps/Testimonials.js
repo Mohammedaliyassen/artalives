@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 function Testimonials() {
     var [opinions, setOpinions] = useState([])
     useEffect(() => {
-        fetch("http://154.56.56.115/api/client-opnions?populate=*")
+        fetch("https://api.artalives.com/api/client-opnions?populate=*&sort[0]=id:desc")
             .then((res) => res.json())
             .then((data) => {
                 setOpinions(data.data)

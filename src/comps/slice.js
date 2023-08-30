@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 
 
 export const fetchData = createAsyncThunk('slice/fetchData', async () => {
-  const response = await fetch("http://154.56.56.115/api/logo-design-categories?populate=*")
+  const response = await fetch("https://api.artalives.com/api/logo-design-categories?populate=*")
   .then((response)=>response.json())
   .then((data)=>{return data} )
   
