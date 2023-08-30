@@ -179,8 +179,8 @@ function Service() {
   ];
   const logo = [
     logo2,
-    logo3,
     logo4,
+    logo1,
   ];
   const Web = [
     web2,
@@ -207,7 +207,7 @@ function Service() {
               <h1>تصميم شعار</h1>
               <div className="carousel-inner">
                 <div className="carousel-item active" >
-                  <img src={logo1} className="d-block w-100" alt="..." />
+                  <img src={logo3} className="d-block w-100" alt="..." />
                 </div>
                 {logo.map((e) => {
                   return (<>
@@ -285,16 +285,16 @@ function Service() {
               <h1>   تصميم تطبيقات موبايل    </h1>
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img src={visual1} className="d-block w-100" alt="..." />
+                  <img src='https://cdn.pixabay.com/animation/2023/07/19/01/41/01-41-18-281_512.gif' className="d-block w-100" alt="..." />
                 </div>
-                {visual.map((e) => {
+                {/* {visual.map((e) => {
                   return (<>
                     <div className="carousel-item " key={e}>
                       <img src={e} className="d-block w-100" alt="..." />
                     </div>
                   </>
                   )
-                })}
+                })} */}
               </div>
             </Link>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselMobile" data-bs-slide="prev">
