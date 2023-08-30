@@ -33,6 +33,8 @@ const MobileProjects = () => {
       });
   }, [dispatch]);
 
+  
+
 
   const selector = useSelector((state) => state.mobile);
   const ourData = selector.data;
